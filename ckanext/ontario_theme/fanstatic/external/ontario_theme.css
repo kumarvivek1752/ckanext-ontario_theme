@@ -251,7 +251,7 @@ a.skip-main:active {
 
 .btn-primary:active,
 .btn-primary.active,
-.btn-primary .open > .dropdown-toggle.btn-primary {
+.btn-primary .open>.dropdown-toggle.btn-primary {
   background-color: #094a60;
   border-color: #00B2E3;
   background-image: none;
@@ -259,13 +259,13 @@ a.skip-main:active {
 
 .btn-primary:active:hover,
 .btn-primary.active:hover,
-.btn-primary .open > .dropdown-toggle.btn-primary:hover,
+.btn-primary .open>.dropdown-toggle.btn-primary:hover,
 .btn-primary:active:focus,
 .btn-primary.active:focus,
-.btn-primary .open > .dropdown-toggle.btn-primary:focus,
+.btn-primary .open>.dropdown-toggle.btn-primary:focus,
 .btn-primary:active.focus,
 .btn-primary.active.focus,
-.btn-primary .open > .dropdown-toggle.btn-primary.focus {
+.btn-primary .open>.dropdown-toggle.btn-primary.focus {
   background-color: #094a60;
   border-color: #00B2E3;
 }
@@ -306,7 +306,7 @@ a.skip-main:active {
 
 .btn-secondary:active,
 .btn-secondary.active,
-.btn-secondary .open > .dropdown-toggle.btn-secondary {
+.btn-secondary .open>.dropdown-toggle.btn-secondary {
   background-color: #8A600D;
   border-color: #442f06;
   background-image: none;
@@ -314,13 +314,13 @@ a.skip-main:active {
 
 .btn-secondary:active:hover,
 .btn-secondary.active:hover,
-.btn-secondary .open > .dropdown-toggle.btn-secondary:hover,
+.btn-secondary .open>.dropdown-toggle.btn-secondary:hover,
 .btn-secondary:active:focus,
 .btn-secondary.active:focus,
-.btn-secondary .open > .dropdown-toggle.btn-secondary:focus,
+.btn-secondary .open>.dropdown-toggle.btn-secondary:focus,
 .btn-secondary:active.focus,
 .btn-secondary.active.focus,
-.btn-secondary .open > .dropdown-toggle.btn-secondary.focus {
+.btn-secondary .open>.dropdown-toggle.btn-secondary.focus {
   background-color: #8A600D;
   border-color: #442f06;
 }
@@ -367,7 +367,7 @@ a.skip-main:active {
 
 .btn-grey:active,
 .btn-grey.active,
-.btn-grey .open > .dropdown-toggle.btn-grey {
+.btn-grey .open>.dropdown-toggle.btn-grey {
   background-color: #444;
   border-color: #222;
   background-image: none;
@@ -375,13 +375,13 @@ a.skip-main:active {
 
 .btn-grey:active:hover,
 .btn-grey.active:hover,
-.btn-grey .open > .dropdown-toggle.btn-grey:hover,
+.btn-grey .open>.dropdown-toggle.btn-grey:hover,
 .btn-grey:active:focus,
 .btn-grey.active:focus,
-.btn-grey .open > .dropdown-toggle.btn-grey:focus,
+.btn-grey .open>.dropdown-toggle.btn-grey:focus,
 .btn-grey:active.focus,
 .btn-grey.active.focus,
-.btn-grey .open > .dropdown-toggle.btn-grey.focus {
+.btn-grey .open>.dropdown-toggle.btn-grey.focus {
   background-color: #444;
   border-color: #222;
 }
@@ -669,7 +669,7 @@ div#topics a {
 }
 
 div#topics div a:hover i {
-  color: #00B2E3;
+  color: #ec1111;
 }
 
 @media (min-width: 1200px) {
@@ -681,7 +681,7 @@ div#topics div a:hover i {
 
 div#topics div i {
   font-size: 48px;
-  color: #1080A6;
+  color: #891c1c;
 }
 
 div#topics div.row {
@@ -774,8 +774,8 @@ body,
 .ie7 [role=main],
 .ie8 .main,
 .ie7 .main {
-  background-image: none;
-  background-color: #fff;
+  /* background-image: none; */
+  background-color: #ffffff;
 }
 
 @media (min-width: 768px) {
@@ -1093,18 +1093,18 @@ section.additional-info table.table tbody tr td {
   min-height: 4rem;
 }
 
-.pagination > .disabled > span,
-.pagination > .disabled > span:hover,
-.pagination > .disabled > span:focus,
-.pagination > .disabled > a,
-.pagination > .disabled > a:hover,
-.pagination > .disabled > a:focus,
+.pagination>.disabled>span,
+.pagination>.disabled>span:hover,
+.pagination>.disabled>span:focus,
+.pagination>.disabled>a,
+.pagination>.disabled>a:hover,
+.pagination>.disabled>a:focus,
 .media-item span.count,
 .text-muted {
   color: #666666;
 }
 
-.nav-item.active > a,
+.nav-item.active>a,
 .nav-aside li.active a {
   background-color: #1080A6;
 }
